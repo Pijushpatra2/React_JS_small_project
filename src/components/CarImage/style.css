@@ -1,0 +1,41 @@
+.container{
+    position: relative;
+    height: 100%;
+    padding: 0;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 0;
+}
+.swiper{
+    width: 100%;
+   
+    padding-bottom: 50px;
+}
+.swiper-slide{
+    background-position: center;
+    background-size: cover;
+    width: 350px;
+    height: 250px;
+}
+.swiper-slide img{
+    display: block;
+    width: 100%;
+    aspect-ratio: -1;
+}
+.detilsCont{
+    background-color: #fff;
+    height: auto;
+    width: 60%;
+    top: 64%;
+    left: 20%;
+    position: absolute;
+    text-align: center;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.detilsCont p{
+    padding-top: 0;
+    font-size: 13px;
+}
+
+
+

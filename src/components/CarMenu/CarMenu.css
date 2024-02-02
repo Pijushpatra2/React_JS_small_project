@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+.mainCont{
+    width: 60%;
+    height: auto;
+}
+.mainContSemiheading{
+    justify-content: center;
+    display: flex;
+    font-size: 12px;
+    margin-bottom: 0;
+}
+.mainContSemiheading p{
+    font-family: "Merriweather", serif;
+    font-weight: 800;
+    font-style: italic;
+    color: rgb(255, 50, 50);
+}
+.mainContheading{
+    justify-content: center;
+    display: flex;
+    margin-top: 0;
+}
+.mainContheading h2{
+    font-family: "Noto Serif", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 25px;
+}
+.mainContSub{
+    display: grid;
+    grid-template-columns: 15% 15% 15% 15% 15% 15%;
+    grid-gap: 2%;
+    margin-top: 0;
+    
+}
+.logoGrid{
+    height: 90%;
+    width: 90%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    aspect-ratio: 1;
+}
+
+@media (max-width:880px) {
+    .mainContSub{
+        display: grid;
+        grid-template-columns: 20% 20% 20% 20%;
+        grid-gap: 5%;
+        margin-top: 0;
+        
+    }
+}
+@media (max-width:700px) {
+    .logoGrid{
+        height: 100%;
+        width: 100%;
+    }
+}
+@media (max-width:600px) {
+    .logoGrid{
+        height: 100%;
+        width: 100%;
+    }
+    .mainContheading h2{
+        font-weight: 700;
+        font-size: 18px;
+    }
+    .mainContSemiheading p{
+        font-weight: 600;
+    }
+}
+

@@ -1,0 +1,31 @@
+.tabSection {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 70px;
+}
+.headding1 p{
+    font-size: 13px;
+    color: red;
+    font-weight: 600;
+}
+.headding2 p{
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+}
+.tab-buttons {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.tab-buttons button {
+  margin: 5px;
+}
+.tab-buttons button:hover{
+    text-decoration: underline;
+}
+
+.tab-content{
+    width: 100%;
+}

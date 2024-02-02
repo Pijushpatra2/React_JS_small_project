@@ -1,0 +1,15 @@
+.mainBikeSec{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.bikedetils{
+    width: 55%;
+}
+.cardImages{
+    opacity: 3/2;
+    object-fit: contain;
+}
+.card{
+    height: 150px;
+}

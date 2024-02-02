@@ -1,0 +1,31 @@
+.main{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.CruiserCont{
+    background-color: rgb(0, 0, 0);
+    width: 90%;
+    height: 260px;
+    margin-top: 20px;
+    display: flex;
+    background-image: url("../../assets/read.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+    justify-content: space-between;
+}
+.images img{
+    height: 100%;
+    width: 100%;
+    aspect-ratio: 2;
+    object-fit: contain;
+    top: 55px;
+    position: absolute;
+    left: -240px;
+}
+.secContent{
+    width: 40%;
+    
+}
